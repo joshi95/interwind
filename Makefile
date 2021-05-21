@@ -1,5 +1,5 @@
 .PHONY: clean
 
 build:
-	go build ./interwind/app/api -o ../../build/interwind-app; \
-	./interwind-app;
+	go build ./interwind/app/interwind-api -o ../../build/interwind-app 
+	./interwind/build/interwind-app;
